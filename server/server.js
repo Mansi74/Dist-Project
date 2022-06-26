@@ -9,6 +9,7 @@ import { Server } from "socket.io";
 
 
 
+// linking to db
 const PORT = process.env.PORT || 3001;
 
 const URL = process.env.MONGODB_URI || `mongodb://user-shared:Shamshun_63@sharedspace-shard-00-00.i4q6e.mongodb.net:27017,sharedspace-shard-00-01.i4q6e.mongodb.net:27017,sharedspace-shard-00-02.i4q6e.mongodb.net:27017/?ssl=true&replicaSet=atlas-sqqyfp-shard-0&authSource=admin&retryWrites=true&w=majority`
