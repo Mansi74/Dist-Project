@@ -1,6 +1,6 @@
-import mongoose from "mongoose";
+import mongoose from "mongoose"; //Importing mongo db
 
-const Connection = async (URL) =>{
+const Connection = async (URL) =>{ //Aquiring connection to db
     try {
         await mongoose.connect(URL, {useUnifiedTopology: true, useNewUrlParser: true});
         console.log("Database connected successfully");
@@ -10,3 +10,4 @@ const Connection = async (URL) =>{
 }
 
 export default Connection;
+
