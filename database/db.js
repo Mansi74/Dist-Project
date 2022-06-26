@@ -1,3 +1,5 @@
+//database
+
 import mongoose from "mongoose";
 
 const Connection = async (URL) =>{
